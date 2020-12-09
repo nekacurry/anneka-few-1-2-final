@@ -6,9 +6,9 @@ function BandsSpace(props) {
   return (
     <div className="BandsSpace">
       <h1>{name}</h1>
-      <div>{formed}</div>
+      <div>Formed: {formed}</div>
       <div>{origin}</div>
-      <div>{fans}</div>
+      <div>Fans: {fans}</div>
     </div>
     
   )

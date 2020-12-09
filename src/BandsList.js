@@ -1,6 +1,7 @@
 import React from 'react'
 import data from './metal.json'
 import BandsSpace from './BandsSpace.js'
+import './BandsList.css'
 
 function BandsList() {
 
