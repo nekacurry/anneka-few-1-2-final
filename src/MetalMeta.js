@@ -1,5 +1,6 @@
 import data from './metal.json'
 import React from 'react'
+import './MetalMeta.css'
 
 function MetalMeta() {
   const dataCount = Object.keys(data).length
