@@ -5,13 +5,15 @@ import './BandsList.css'
 
 function BandsList() {
 
-  const spaces = data.map(( { band_name, formed, origin, fans }, i ) => {
+  const spaces = data.map(( { band_name, formed, origin, fans, split, style } ) => {
     return (
         <BandsSpace 
         name={band_name}
         formed={formed}
         origin={origin}
         fans={fans}
+        split={split}
+        style={style}
       />
     )
   })
