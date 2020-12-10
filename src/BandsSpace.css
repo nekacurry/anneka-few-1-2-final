@@ -1,0 +1,10 @@
+.BandsSpace {
+  margin-top: 20px;
+  border-style: double;
+  padding-top: 0;
+  padding-bottom: 30px;
+}
+
+.BandsSpace h1 {
+  color: #ff00009d;
+}

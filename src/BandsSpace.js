@@ -1,5 +1,6 @@
 import React from 'react'
 import Like from './Like.js'
+import './BandsSpace.css'
 
 
 function BandsSpace(props) {

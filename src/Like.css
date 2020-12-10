@@ -8,7 +8,9 @@
 button {
   width: 25px;
   height: 25px;
-  
+  background-color: #202020;
+  color: #bebebe ;
+  border-style: none;
 }
 
 h2 {
