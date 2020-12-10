@@ -1,4 +1,5 @@
 import React from 'react'
+import Like from './Like.js'
 
 
 function BandsSpace(props) {
@@ -9,6 +10,7 @@ function BandsSpace(props) {
       <div>Formed: {formed}</div>
       <div>{origin}</div>
       <div>Fans: {fans}</div>
+      <Like/>
     </div>
     
   )
