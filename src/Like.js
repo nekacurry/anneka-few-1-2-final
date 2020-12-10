@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import Button from './Buttons.js'
+import './Like.css'
 
 class Like extends Component {
   
@@ -27,15 +28,15 @@ class Like extends Component {
 
       let { count } = this.state
       return (
-        <div>
-          <Button
-            title = { "+" }
-            task = { () => this.incrementCount() }
-          />
-          <h2>{ count } </h2>
+        <div class ="Likes">
           <Button
             title = { "-" }
             task = { () => this.decrementCount() }
+          />
+          <h2>{ count } </h2>
+          <Button
+            title = { "+" }
+            task = { () => this.incrementCount() }
           />
          </div>
       )
